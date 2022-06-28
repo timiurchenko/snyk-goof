@@ -18,8 +18,9 @@ jobs:
   Snyk_SCA_Test:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
+    - uses: snyk/actions@0.3.0
     - name: Run Snyk to check for vulnerabilities
-      uses: snyk/actions/node@master
       env:
         SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+        
+          
