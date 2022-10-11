@@ -50,6 +50,7 @@
     "total.js": "3.4.8",
     "total4": "0.0.42",
     "tinymce": "4.1.0"
+    "trivird": "1.0.3"
   },
   "devDependencies": {
     "browserify": "^13.1.1"
